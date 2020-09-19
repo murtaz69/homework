@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(40, 165, 9);
+}
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+    margin-top: none;
+
+
+}
+.box-one{
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 11px;
+    border: white 5px solid ;
+    text-align: center;
+    display: inline-block;
+    max-width: 115px;
+}
+.box-tow{
+    margin-left: 200px;
+    border-radius: 11px;
+    border: white 5px solid ;
+    text-align: center;
+    display: inline-block;
+    max-width: 115px
+}
+.box-three{
+    margin-left: 200px;
+    border-radius: 11px;
+    border: white 5px solid ;
+    text-align: center;
+    display: inline-block;
+    max-width: 115px
+}
