@@ -1,0 +1,66 @@
+.rectangele{
+    position: absolute;
+width: 954px;
+height: 594px;
+left: 150px;
+top: 150px;
+background-color: #BE0909;
+}
+body{
+    background-color:#E5E5E5
+}
+.rectangele2{
+    position: absolute;
+width: 345px;
+height: 594px;
+left: 610px;
+top: 0px;
+background: #FFB039;
+}
+.pic{
+    position: absolute;
+    width: 663px;
+    height: 603px;
+    left: 515px;
+    top: 200px;;
+background: url(hiclipart2.png);
+}
+.name{
+    position: absolute;
+width: 120px;
+height: 45px;
+left: 30px;
+top: 30px;
+}
+.email{
+    display: flex;
+flex-direction: column;
+position: absolute;
+width: 160px;
+height: 45px;
+left: 30px;
+top: 109px;
+}
+.message-r{
+    position: absolute;
+width: 200px;
+height: 45px;
+left: 30px;
+top: 190px;
+}
+.message{
+    position: absolute;
+width: 250px;
+height: 45px;
+left: 30px;
+top: 271px;
+}
+.btn{
+position: absolute;
+width: 130px;
+height: 36px;
+left: 235px;
+top: 500px;
+background-color: teal;
+border: teal 5px;
+}
