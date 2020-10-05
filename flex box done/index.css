@@ -1,0 +1,43 @@
+
+    body {
+    background-color: #E5E5E5;
+    }
+    .flex-container {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 586px;
+    border: solid rgb(1, 1, 10);
+    justify-content: space-around;
+    width: 468px;
+    height: 160px;
+    background: #F48C06;
+    border-radius: 8px;
+    }
+    .box1 {
+
+    width: 78px;
+    margin-top: 20px;
+    height: 120px;
+    background: #9D0208;
+    border-radius: 9px;
+    }
+    .box2{
+        margin-top: 20px;  
+    width: 78px;
+    height: 120px;
+    left: 781px;
+    top: 110px;
+
+    background: #9D0208;
+    border-radius: 9px;
+    }
+    .box3 {
+        margin-top: 20px;
+        width: 78px;
+        height: 120px;
+        left: 683px;
+        top: 110px;
+        background: #9D0208;
+        border-radius: 9px; 
+    }
+    
