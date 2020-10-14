@@ -1,0 +1,76 @@
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .felxbox-container{
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+        width: 468px;
+        height: 160px;
+        background-color:#F48C06;
+        margin: 20px;
+
+        }
+
+        .flexbox-item{
+
+            width: 78px;
+            height: 78px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 4px;
+        }
+
+        .secound{
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+        border-radius: 4px;
+            
+        }
+        .flexbox-item-1{
+            min-width: 78px;
+            min-height: 78px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 4px;
+        }
+        .thirth{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+        }
+        .forth{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            
+        }
+        .last{
+            align-self: flex-end;
+
+        }
+        .fifth{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .middel{
+            align-self: center;
+        width: 56px;
+        height: 50px;
+        }
+        .sixth{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middel2{
+            width: 156px;
+        height: 78px;
+        }
+    
