@@ -1,115 +1,90 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 2px;
 }
 .container{
-position: relative;
-width: 1440px;
-height: 900px;
-background: #f3ecec;
+width: 100%;
+height: 100vh;
+display: grid;
+grid-template-columns: 300px 500px 200px;
+grid-template-rows:300px 500px 200;
+background: #d8d6d6;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+
 }
 .first-box{
- position: absolute;
-width: 448px;
-height: 195px;
-left: 24px;
-top: 26px;
-background: #007F5F;
+    background: #970000;
+ grid-row: 1/2;
+   
 }
 .second-box{
-position: absolute;
-width: 448px;
-height: 195px;
-left: 24px;
-top: 243px;
-background: #2B9348;
+background: #fda0a0;
+grid-row-start: 1;
+grid-row-end: 3;
+
+
 }
 .third-box{
-    position: absolute;
-width: 448px;
-height: 414px;
-left: 496px;
-top: 24px;
 background: #80B918;
+grid-row: 1/1;
+width: 200px;
+height: 70px;
+
+
 }
 .fourth{
-position: absolute;
-width: 448px;
-height: 122px;
-left: 968px;
-top: 24px;
 background: #DDDF00;
+width: 200px;
+height: 70px;
+grid-row: 2;
+grid-column: 3 ;
+
 }
 .fifth{
- position: absolute;
-width: 448px;
-height: 122px;
-left: 968px;
-top: 170px;
 background: #EEEF20;
+width: 200px;
+height: 70px;
+grid-row: 1;
+grid-column: ;
 }
 .sixth{
-    position: absolute;
-    width: 448px;
-    height: 122px;
-    left: 968px;
-    top: 316px;
     background: #FFFF3F;
+   
 }
 .seventh{
-position: absolute;
+background: #1a0057;
+
 width: 448px;
 height: 268px;
-left: 24px;
-top: 462px;
-background: #55A630;
 }
 .eighth{
-    position: absolute;
-    width: 212px;
-    height: 122px;
-    left: 496px;
-    top: 462px;
     background: #AACC00;
+   
 }
 .ninth{
-position: absolute;
+background: #BFD200;
 width: 212px;
 height: 122px;
-left: 496px;
-top: 608px;
-background: #BFD200;
 }
 .tenth{
-    position: absolute;
-    width: 448px;
-    height: 268px;
-    left: 732px;
-    top: 462px;
     background: #D4D700;
+    grid-row: 3;
+    grid-column: 2;
+    width: 212px;
+height: 122px;
 }
 .eleventh{
-    position: absolute;
-    width: 212px;
-    height: 268px;
-    left: 1204px;
-    top: 462px;
     background: #007F5F;
+    width: 448px;
+    height: 268px;
 }
 .text{
-position: absolute;
+background: #9BC1BC;
 width: 1440px;
 height: 146px;
-left: 0px;
-top: 754px;
-background: #9BC1BC;
 }
 h1{
-    position: absolute;
-    width: 649px;
-    height: 78px;
-    left: 37px;
-    top: 788px;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color palette</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-box"></div>
+        <div class="second-box"></div>
+        <div class="third-box"></div>
+        <div class="fourth"></div>
+        <div class="fifth"></div>
+        <div class="sixth"></div>
+        <div class="seventh"></div>
+        <div class="eighth"></div>
+        <div class="ninth"></div>
+        <div class="tenth"></div>
+        <div class="eleventh"></div>
+        <div class="text"></div>
+ </div>
+ <h1>MY COLOR PALETTE</h1>
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+position: relative;
+width: 1440px;
+height: 900px;
+background: #f3ecec;
+}
+.first-box{
+ position: absolute;
+width: 448px;
+height: 195px;
+left: 24px;
+top: 26px;
+background: #007F5F;
+}
+.second-box{
+position: absolute;
+width: 448px;
+height: 195px;
+left: 24px;
+top: 243px;
+background: #2B9348;
+}
+.third-box{
+    position: absolute;
+width: 448px;
+height: 414px;
+left: 496px;
+top: 24px;
+background: #80B918;
+}
+.fourth{
+position: absolute;
+width: 448px;
+height: 122px;
+left: 968px;
+top: 24px;
+background: #DDDF00;
+}
+.fifth{
+ position: absolute;
+width: 448px;
+height: 122px;
+left: 968px;
+top: 170px;
+background: #EEEF20;
+}
+.sixth{
+    position: absolute;
+    width: 448px;
+    height: 122px;
+    left: 968px;
+    top: 316px;
+    background: #FFFF3F;
+}
+.seventh{
+position: absolute;
+width: 448px;
+height: 268px;
+left: 24px;
+top: 462px;
+background: #55A630;
+}
+.eighth{
+    position: absolute;
+    width: 212px;
+    height: 122px;
+    left: 496px;
+    top: 462px;
+    background: #AACC00;
+}
+.ninth{
+position: absolute;
+width: 212px;
+height: 122px;
+left: 496px;
+top: 608px;
+background: #BFD200;
+}
+.tenth{
+    position: absolute;
+    width: 448px;
+    height: 268px;
+    left: 732px;
+    top: 462px;
+    background: #D4D700;
+}
+.eleventh{
+    position: absolute;
+    width: 212px;
+    height: 268px;
+    left: 1204px;
+    top: 462px;
+    background: #007F5F;
+}
+.text{
+position: absolute;
+width: 1440px;
+height: 146px;
+left: 0px;
+top: 754px;
+background: #9BC1BC;
+}
+h1{
+    position: absolute;
+    width: 649px;
+    height: 78px;
+    left: 37px;
+    top: 788px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #000000;
+}
