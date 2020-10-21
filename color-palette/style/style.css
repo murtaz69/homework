@@ -3,92 +3,84 @@
     padding: 2px;
 }
 .container{
-width: 100%;
-height: 100vh;
-display: grid;
-grid-template-columns: 300px 500px 200px;
-grid-template-rows:300px 500px 200;
-background: #d8d6d6;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
 
 }
 .first-box{
-    background: #970000;
- grid-row: 1/2;
+    grid-row: 1/ 4;
+    grid-column: 1/ 3;
+    background-color: #f7093c;
    
 }
 .second-box{
-background: #fda0a0;
-grid-row-start: 1;
-grid-row-end: 3;
-
+    grid-row: 4/ 7;
+    grid-column: 1/ 3;
+    background-color: #e922dc;
 
 }
 .third-box{
-background: #80B918;
-grid-row: 1/1;
-width: 200px;
-height: 70px;
+    grid-row: 7/ 11;
+    grid-column: 1/3;
+    background-color: #0cd4e2;
 
 
 }
 .fourth{
-background: #DDDF00;
-width: 200px;
-height: 70px;
-grid-row: 2;
-grid-column: 3 ;
+    grid-row: 1/7;
+    grid-column: 3/5;
+    background-color: #4e1f34;
 
 }
 .fifth{
-background: #EEEF20;
-width: 200px;
-height: 70px;
-grid-row: 1;
-grid-column: ;
+    grid-row: 7/9;
+    grid-column: 3/4;
+    background-color: #93A8AC;
 }
 .sixth{
-    background: #FFFF3F;
+    grid-row: 9/11;
+    grid-column: 3/4;
+    background-color: #ADA7C9;
    
 }
 .seventh{
-background: #1a0057;
-
-width: 448px;
-height: 268px;
+    grid-row: 7/11;
+    grid-column: 4/6;
+    background-color: #66da1e;
 }
 .eighth{
-    background: #AACC00;
+    grid-row: 1/3;
+    grid-column: 5/7;
+    background-color: #338899;
    
 }
 .ninth{
-background: #BFD200;
-width: 212px;
-height: 122px;
+    grid-row: 3/5;
+    grid-column: 5/7;
+    background-color: #89B6A5;
 }
-.tenth{
-    background: #D4D700;
-    grid-row: 3;
-    grid-column: 2;
-    width: 212px;
-height: 122px;
+.tenth {
+    grid-row: 5/7;
+    grid-column: 5/7;
+    background-color: #4C3B4D;
 }
 .eleventh{
-    background: #007F5F;
-    width: 448px;
-    height: 268px;
+    grid-row: 7/11;
+    grid-column: 6/7;
+    background-color: #2F323A;
 }
 .text{
-background: #9BC1BC;
-width: 1440px;
-height: 146px;
+    grid-row: 11/12;
+    grid-column: 1/7;
+    background-color: #9BC1BC;
+    grid-gap: 0px; 
 }
 h1{
-    font-style: normal;
+    font-size: 64px;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 78px;
-    text-transform: uppercase;
-    color: #000000;
+
 }
