@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trispace', sans-serif;
+
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/event.jpg);
+    background-size: cover;
+    font-family: 'Trispace', sans-serif;
+
+}
+section .leftbox{
+    width: 50%;
+    height: 100%;
+    float:left;
+    padding: 5%;
+    font-family: 'Trispace', sans-serif;
+   box-sizing: border-box;
+   transition: 4s;
+
+}
+section .leftbox .content {
+    color: #fff;
+    background: rgba(0,0,0, .5);
+    padding: 40px;
+    transition: 5s;
+}
+section .leftbox .content:hover
+ {
+    background: #e91e63;
+    
+    
+}
+section .leftbox .content h1{
+ margin: 0%;
+ padding: 0%;
+ font-size: 50px;
+   
+}
+section .leftbox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+    
+} 
+section .event{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: right;
+    background: rgba(0,0,0, .5);
+}
+section .event ul{
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    transform: translateY(-50%);
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
+section .event ul li {
+    list-style: none;
+    width: 70%;
+    background: #fff;
+    transition-timing-function: inherit;
+}
+section .event ul li .time {
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    transition: 6s;
+    width: 25%;
+    height: 50%;
+    float: left;
+    text-align: center;
+   transition-delay: 0,5s;
+    color: #fff;
+}
+section .event ul li .time:hover {
+    background: #e91e63;
+}
+
+
+
+
+
+
+section .event2{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: right;
+ 
+    background: rgba(0,0,0, .5);
+}
+section .event2 ul{
+    position: absolute;
+    top: 10px;
+    margin: 0;
+    transform: translateY(-50%);
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .event2 ul li {
+    list-style: none;
+    width: 70%;
+    background: #fff;
+
+}
+section .event2 ul li .time2 {
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    width: 25%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    transition: 6s;
+    color: #fff;
+    font-size: 13px;
+}
+section .event2 ul li .time2:hover {
+    background: #e91e63;
+   
+}
+h5 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25%;
+    animation-name: attention;
+    animation-duration: 5s;
+    color: pink;
+    transform: rotate(360deg);
+    
+    
+}
+
+@keyframes attention {
+    from { transform: translateX(-25%)}
+    to { transform: translateX(145px)}
+}
+.warning{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
