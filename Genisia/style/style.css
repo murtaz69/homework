@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 4500px;
+}
+ul li  {
+    display: inline-block;
+    float: left;
+    margin-left: 18%;
+    margin-top: 4%;
+    padding-right: 9%;
+    font-size: x-large;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+section .first-p {
+display: inline-block;
+height: 28px;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: #4A4FF2;;
+margin-top: 9%;
+margin-left: 19%;
+}
+.second-p {
+    display: inline-block;
+    margin-left: 16%;
+    margin-top: 2%;
+    color: #111111;
+    width: 700px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+ 
+
+}
+.ads {
+    font-size: 15px;
+    margin-left: 75%;
+    margin-top: -8%;
+    color: gray;
+}
+.pictures {
+    display: inline-block;
+    margin-top: 14%;
+    margin-left: 12%;
+}
+.third-p {
+    display: inline-block;
+    margin-left: 16%;
+    margin-top: 8%;
+    color: #111111;
+    width: 400px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+}
+.service1{
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -15%;
+    color: gray;
+
+}
+.service2 {
+    font-size: 20px;
+    margin-left: 80%;
+    margin-top: -9%;
+    color: gray;
+    
+}
+hr {
+    margin-top: 7%;
+    font-size: x-large;
+}
+h1{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.award {
+    font-size: 25px;
+    margin-left: 34%;
+    margin-top: -4%;
+}
+.award2 {
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -4%;  
+    color: gray;
+}
+.year {
+    font-size: 22px;
+    margin-left: 90%;
+    margin-top: -10%;   
+}
+.award3 {
+    font-size: 25px;
+    margin-left: 34%;
+    margin-top: 11%;   
+}
+.award4 {
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -4%;  
+    color: gray;  
+}
+.footer2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 35%;
+   
+}
+
