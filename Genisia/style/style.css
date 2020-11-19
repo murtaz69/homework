@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 4500px;
 }
 ul li  {
     display: inline-block;
@@ -9,11 +8,14 @@ ul li  {
     margin-left: 18%;
     margin-top: 4%;
     padding-right: 9%;
-    font-size: x-large;
+    font-size: 30px;
     list-style: none;
     text-decoration: none;
     color: black;
 
+}
+ul li :hover{
+    background-color: rgb(8, 245, 213);
 }
 section .first-p {
 display: inline-block;
@@ -107,11 +109,122 @@ h1{
     margin-top: -4%;  
     color: gray;  
 }
-.footer2 {
+.footer {
    display: flex;
    align-items: center;
    justify-content: space-around;
    margin-left: 35%;
    
 }
+h3 {
+display: inline-block;
+font-size: 40px;
+width: 400px;
+margin-left: 18%;
+margin-top: 8%;
 
+}
+.paragraph{
+    display: flex;
+    font-size: 16px;
+    width: 400px;
+    margin-left: 18%;
+    margin-top: 2%;
+    color: gray;
+}
+.side-nav {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: -50%;
+    color: gray;
+}
+.nav-side {
+    display: inline-block;
+    margin-top: -50%;
+    margin-left: 20%;
+    font-size: 17px;
+     
+}
+.picture2 {
+    display: inline-block;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 25px;
+
+}
+.page2-second-p {
+    width: 1000px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 20%;
+    color: #111111;
+}
+div img {
+    display: inline-block;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 11%;
+    /*why there is space bettween my picturse? i do not use anything to add space. */
+}
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* i can not spasify every singel content in side the footer */
+}
+div h2 {
+    display: inline-block;
+    margin-top: 13%;
+    margin-left: 16%;
+    font-size: 50px;
+    width: 500px;
+}
+.page3-p {
+    margin-left: 16%;
+    margin-top: -5%;
+    color: gray;
+    width: 500px;
+    font-size: 22px;
+}
+form input {
+    display: flex;
+    
+    margin-top: -4%;
+    margin-left: 57%;
+    font-size: 25px;
+    width: 700px;
+    text-align: left;
+    /* i could not fix my input as its in Figma */
+    
+}
+button {
+    margin-top : 8%;
+    margin-left: 70%;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #4A4FF2;
+    color: white;
+}
+button:hover {
+    background-color: rgb(60, 243, 4);
+}
+.map {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    /* why my text-align : center dose not work ? */
+    margin-left: 20%;
+    margin-top: 12%;
+}
+.footer-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
