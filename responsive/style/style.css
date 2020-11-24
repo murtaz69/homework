@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+   
+    background-color: #000000;
+}
+.logo {
+ display: flex;
+ font-size: 95px;
+margin-top: 450px;
+margin-left: 700px;
+max-width: 150px;
+min-height: 36px;
+color: #ffffff;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 20rem;
+    margin-top: -125px;
+    /* i dont understand why my navbar is not located equal with LOGO ? i used a big - number */
+    
+}
+.navbar li {
+    display: flex;
+    max-width: 450px;
+    min-height: 12px;
+    margin-left: 95px;
+    list-style: none;
+
+}
+.navbar li :hover {
+    background-color: gray;
+}
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10rem;
+    display: block;
+}
+h1 {
+    max-width: 450px;
+    min-height: 150px;
+    display: flex;
+    font-size: 200px;
+    justify-content: start;
+    margin-top: 55rem;
+    margin-left: 40rem;
+    color: #ffffff;
+}
+.paragraph {
+    max-width: 1500px;
+    min-height: 150px;
+    font-size: 80px;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    color: #ffffff;
+}
+ section {
+     display: inline-block;
+     margin-left: 50%;
+     margin-top: -12%;
+     /* i dont know why my display: dose not work ?*/
+
+ }
+ @media screen and (min-width: 700px) and (max-width: 900px) {
+    .logo  {
+         color: hotpink;
+     }
+ }
+ @media screen and (max-width: 800px) {
+    .paragraph {
+        font-size: 20px;
+    }
+ }
+  
